@@ -1,4 +1,7 @@
+#include <iostream>
+//using namesapce std;
 int main()
 {
-return 0;
+	std::cout << "Successful" << std::endl;
+	return 0;
 }
