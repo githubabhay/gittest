@@ -1,13 +1,13 @@
 CC=g++
 CFLAGS=-I
-
-
-
+APP=app
 
 gittest: src/main.cpp 
-	$(CC) -o app src/main.cpp -I
+	$(CC) -o $(APP) src/main.cpp -I
 
 clean:
-	rm -rf app
+	rm -rf $(APP)
 
+run:
+	./$(APP)
 	 
